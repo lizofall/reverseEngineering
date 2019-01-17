@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boutique>
+           <entites>
+
+            	   <client>
+            		<idClient>55</idClient>	
+            		<nom>Diop</nom>
+            		<prenom>Annie</prenom>
+            		<adresse>Mboro</adresse>
+            	   </client>
+            
+                    <livreur>
+                                   <idLivreur> aaaa</idLivreur>
+                                   <numTel>fffffffffffff</numTel>
+            	   </livreur>
+            
+                    <restaurant>
+            		<idResto></idResto>
+                                   <nom></nom>
+            	   </restaurant>
+
+           </entites>
+
+           <relations>
+            
+            	     	    <relation name="passer commande">
+                                  <client min="1" max="*"></client>
+                                  <restaurant min="0" max="*"></restaurant>
+                            </relation>
+            
+                            <relation name="affecter">
+                                  <restaurant min="1" max="1"></restaurant>
+                                  <livreur min="1" max="*"></livreur>
+                            </relation>
+            
+                            <relation name="livrer">
+                                  <client min="1" max="*"></client>
+                                  <livreur min="0" max="*"></livreur>
+                            </relation>
+
+           </relations>
+            
+	
+		
+	 
+</boutique>
