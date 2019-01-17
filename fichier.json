@@ -1,0 +1,23 @@
+[{
+    "personne": [{
+        "prenom": "peinda",
+        "nom": "fall",
+        "age": 18
+    }],
+    "naissance": [{
+
+            "pays_nais": "senega",
+            "pays_actuel": "wakand",
+            "ville_naissance": "jesaispas"
+        }
+
+
+    ],
+
+    "formation": [{
+
+        "departement": "genie informatique",
+        "option": "informatique"
+    }]
+
+}]
